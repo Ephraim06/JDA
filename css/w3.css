@@ -24,7 +24,7 @@ html {
     height: 10% !important;
     border-radius: 50px;
     /* Makes them circular */
-    border-color: goldenrod !important;
+    border-color: #d4af37 !important;
     border-style: solid;
   }
 }
@@ -34,7 +34,7 @@ html {
     width: 80% !important;
     height: 20% !important;
     border-radius: 50px;
-    border-color: goldenrod !important;
+    border-color: #d4af37 !important;
     border-style: solid;
   }
 }
@@ -145,7 +145,7 @@ html {
 /* Custom Video Controls Styling */
 video::-webkit-media-controls-play-button,
 video::-webkit-media-controls-pause-button {
-  border: 2px solid goldenrod !important;
+  border: 2px solid #d4af37 !important;
   background-color: transparent !important;
   border-radius: 50%;
   padding: 5px;
@@ -155,7 +155,7 @@ video::-webkit-media-controls-pause-button {
 
 video::-webkit-media-controls-play-button:hover,
 video::-webkit-media-controls-pause-button:hover {
-  background-color: goldenrod !important;
+  background-color: #d4af37 !important;
   color: white !important;
 }
 
@@ -178,7 +178,7 @@ video::-webkit-media-controls-download-button {
  
 .carousel-inner{
   border-radius: 0% !important;
-  border: goldenrod 2.5px !important;
+  border: #d4af37 2.5px !important;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -189,24 +189,41 @@ video::-webkit-media-controls-download-button {
 
 
 h6 {
-  color: goldenrod !important;
+  color: #d4af37 !important;
 }
 
 /* Change inactive button styles */
 .carousel-control-next-icon, .carousel-control-prev-icon{
-  background-color: goldenrod; /* Inactive color */
+  background-color: #d4af37; /* Inactive color */
 }
 
 
 /* Sponsors */
-#press {
-  text-align: center;
-  padding-bottom: 3%;
+.sponsors {
+  width: 100% !important;
+  height: auto !important;
+  margin: auto !important;
 }
 
-.press-logo {
-  width: 30%;
-  margin: 20px 20px 50px;
+.sponsors:hover {
+  transform: scale(1.2) !important;
+  transition: all 0.6s ease-in-out;
+  -webkit-transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .sponsors {
+    width: 80px !important;
+    height: auto !important;
+  }
+}
+
+.sponsors-col {
+  justify-content: center !important;
+  align-items: center !important;
+  display: grid !important;
+  margin-left: 5% !important;
+  padding-bottom: 80px !important;
 }
 
 /* Contact Agent Floating Button Start */
@@ -218,7 +235,7 @@ h6 {
   width: 5rem;
   height: 5rem;
   background-color: white;
-  border: 2px solid goldenrod;
+  border: 2px solid #d4af37;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -247,14 +264,14 @@ h6 {
 
 .modal-icon {
   font-size: 30px;
-  color: goldenrod;
+  color: #d4af37;
 }
 
 .modal-cols {
   height: 100%;
   width: 100%;
   padding: 2%;
-  border: 2.5px solid goldenrod;
+  border: 2.5px solid #d4af37;
   border-radius: 8px;
   margin: 2%;
   background-color: #fff;
@@ -305,7 +322,7 @@ h6 {
 }
 
 .modal-h5{
-  color: goldenrod;
+  color: #d4af37;
 }
 
 em {
@@ -327,14 +344,14 @@ em {
 
 .highlight-icon{
   font-size: large;
-  color: goldenrod;
+  color: #d4af37;
 }
 
 /* ON LOAD MODAL */
 
 .count-down {
   font-size: x-large;
-  color: goldenrod !important;
+  color: #d4af37 !important;
 }
 
 /* LISTING CARD */
@@ -345,7 +362,7 @@ em {
   justify-content: space-between;
   align-items: center !important;
   width: 50% !important;
-  border: 1px solid goldenrod;
+  border: 1px solid #d4af37;
   border-radius: 5px;
   padding: 25px 25px 25px 25px !important;
   transition: transform 0.2s;
@@ -358,7 +375,7 @@ em {
       justify-content: space-between;
       align-items: center !important;
       width: 100% !important;
-      border: 1px solid goldenrod;
+      border: 1px solid #d4af37;
       border-radius: 5px;
       padding: 25px 25px 25px 25px !important;
       transition: transform 0.2s;
@@ -455,7 +472,7 @@ em {
 /* NAV BAR */
 .navbar {
   padding: 10px 0; /* Adjust padding as needed */
-  border: 1px goldenrod solid !important;
+  border: 1px #d4af37 solid !important;
   border-radius: 0%;
 }
 
@@ -469,7 +486,7 @@ em {
   color: black !important;
 }
 .nav-icon{
-  color: goldenrod !important;
+  color: #d4af37 !important;
 }
 
 .nav-link:hover {
@@ -477,8 +494,8 @@ em {
 }
 
 .navbar-toggler, .btn-close {
-  background-color: goldenrod; /* Hamburger icon color */
-  border: 2px goldenrod solid !important;
+  background-color: #d4af37; /* Hamburger icon color */
+  border: 2px #d4af37 solid !important;
 }
 
 .fa-bars{
@@ -500,7 +517,7 @@ footer {
 }
 
 footer a {
-  color: goldenrod; /* Set link color to goldenrod */
+  color: #d4af37; /* Set link color to goldenrod */
   text-decoration: none; /* Remove underline from links */
   transition: color 0.3s; /* Add a smooth color transition effect */
 }
@@ -525,7 +542,7 @@ footer .copyright {
 }
 
 footer .copyright a {
-  color: goldenrod;
+  color: #d4af37;
 }
 
 footer .copyright a:hover {
@@ -547,10 +564,10 @@ footer .copyright a:hover {
 }
 .fa-location-dot {
   font-size: large;
-  color: goldenrod;
+  color: #d4af37;
 }
 .available-btn {
-  border: goldenrod solid;
+  border: #d4af37 solid;
   color: black;
   background-color: #fff !important;
   padding: 10px;
@@ -559,7 +576,7 @@ footer .copyright a:hover {
 }
 
 .cookies-btn {
-  border: 2px goldenrod solid !important;
+  border: 2px #d4af37 solid !important;
   color: #fff !important;
   background-color: #333 !important;
   padding: 10px;
@@ -833,10 +850,11 @@ hr {
 .kingdavidviewlogo {  
   position: relative;
   z-index: 1;
-  border: 2px goldenrod solid !important;
   border-radius: 5px;
   display: block;
   margin: auto !important;
+  font-weight: 900 !important;
+  font-size: x-large;
 }
 
 /* Center the header content vertically and horizontally */
@@ -856,7 +874,7 @@ hr {
   line-height: 1.6em;
   margin-top: 20px;
   padding: 25px;
-  color: goldenrod !important; /* Use a gold color */
+  color: #d4af37 !important; /* Use a gold color */
   background: linear-gradient(90deg, #ffd700, #ffcc00); /* Add a subtle gold gradient */
   background-clip: text;
   -webkit-background-clip: text;
@@ -868,7 +886,7 @@ hr {
 }
 
 .header-button {
-  background-color: goldenrod; /* MUI primary button color */
+  background-color: #d4af37; /* MUI primary button color */
   color: #fff; /* Text color for contrast */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -883,7 +901,7 @@ hr {
 
   /* Active effect (when clicked) */
   &:active {
-    background-color: goldenrod; /* Even darker color when active */
+    background-color: #d4af37; /* Even darker color when active */
   }
 }
 
@@ -901,7 +919,7 @@ hr {
 
   /* Style the button */
 .modal-btn {
-  background-color: goldenrod; /* Button background color */
+  background-color: #d4af37; /* Button background color */
   color: #fff; /* Text color */
   padding: 10px 20px; /* Padding around the text */
   border: none;
@@ -917,16 +935,23 @@ hr {
   margin-right: 5px; /* Space between icon and text */
 }
 
+.brochure-btn {
+  border: 5px solid #fff !important;
+  background-color: #00000000 !important;
+  color: #fff;
+  text-decoration: none !important;
+}
+
 /* Adjust button appearance on hover */
 .modal-btn, .available-btn:hover {
-  background-color: goldenrod;
+  background-color: #d4af37;
   opacity: 80%; /* Change color on hover */
 }
 .git-btn{
   background-color: #fff; /* Button background color */
   color: black; /* Text color */
   padding: 2.5px 5px; /* Padding around the text */
-  border: goldenrod solid 1.8px;
+  border: #d4af37 solid 1.8px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
@@ -941,18 +966,18 @@ hr {
 
 /* Adjust button appearance on hover */
 .git-btn:hover {
-  background-color: goldenrod;
+  background-color: #d4af37;
   opacity: 50%; /* Change color on hover */
 }
 
 .fa-address-card, .goldenrod {
-  color: goldenrod;
+  color: #d4af37;
 }
 
 /* ACCORDION */
 
 .accordion-button{
-  color: goldenrod !important;
+  color: #d4af37 !important;
 }
 
 .fa-warehouse,
@@ -963,7 +988,7 @@ hr {
 }
 
 #viewFloorPlansBtn {
-  background-color: goldenrod; /* MUI primary button color */
+  background-color: #d4af37; /* MUI primary button color */
   color: #fff; /* Text color for contrast */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -978,7 +1003,7 @@ hr {
 
   /* Active effect (when clicked) */
   &:active {
-    background-color: goldenrod; /* Even darker color when active */
+    background-color: #d4af37; /* Even darker color when active */
   }
 }
 

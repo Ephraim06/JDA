@@ -130,32 +130,35 @@ function sendWhatsAppMessage() {
 spinner();
   
 // Check if user has previously accepted or declined cookies
-if (localStorage.getItem("cookiesAccepted") === "true") {
-  // Cookies accepted, do nothing
-} else if (localStorage.getItem("cookiesAccepted") === "false") {
-  // Cookies declined, perform actions accordingly
-  // For example, disable certain features
-} else {
-  // Show the cookie consent popup if no decision has been made
-  document.getElementById("cookieConsent").style.display = "block";
-}
+document.addEventListener("DOMContentLoaded", function() {
+    if (localStorage.getItem("cookiesAccepted") === "true") {
+        // Cookies accepted, do nothing
+    } else if (localStorage.getItem("cookiesAccepted") === "false") {
+        // Cookies declined, perform actions accordingly
+        // For example, disable certain features
+    } else {
+        // Show the cookie consent popup if no decision has been made
+        document.getElementById("cookieConsent").style.display = "block";
+    }
+});
 
 // Event listeners for accepting or declining cookies
 document.getElementById("acceptCookies").addEventListener("click", function() {
-  // Set the local storage to indicate cookies have been accepted
-  localStorage.setItem("cookiesAccepted", "true");
-  // Hide the cookie consent popup
-  document.getElementById("cookieConsent").style.display = "none";
-  // Perform any necessary actions for accepting cookies
+    // Set the local storage to indicate cookies have been accepted
+    localStorage.setItem("cookiesAccepted", "true");
+    // Hide the cookie consent popup
+    document.getElementById("cookieConsent").style.display = "none";
+    // Perform any necessary actions for accepting cookies
 });
 
 document.getElementById("declineCookies").addEventListener("click", function() {
-  // Set the local storage to indicate cookies have been declined
-  localStorage.setItem("cookiesAccepted", "false");
-  // Hide the cookie consent popup
-  document.getElementById("cookieConsent").style.display = "none";
-  // Perform any necessary actions for declining cookies
+    // Set the local storage to indicate cookies have been declined
+    localStorage.setItem("cookiesAccepted", "false");
+    // Hide the cookie consent popup
+    document.getElementById("cookieConsent").style.display = "none";
+    // Perform any necessary actions for declining cookies
 });
+
 
  $(document).ready(function() {
       $('[data-fancybox="gallery"]').fancybox({
