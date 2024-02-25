@@ -40,6 +40,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+function scrollToSection() {
+    // Get the element with the ID "about"
+    var aboutSection = document.getElementById('about');
+
+    // Check if the element exists
+    if (aboutSection) {
+        // Use scrollIntoView to scroll to the "about" section
+        aboutSection.scrollIntoView({ behavior: 'smooth' });
+        console.log('Scrolling to section...');
+    } else {
+        console.log('Section not found');
+    }
+}
+
 
 // BROWSE UNITS MODAL
 
@@ -56,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
   // Set the launch date (YYYY, MM, DD, HH, MM, SS)
-  const launchDate = new Date(2023, 11, 4, 1, 0, 0).getTime();
+  const launchDate = new Date(2024, 2, 29, 1, 0, 0).getTime();
 
   // Function to update the countdown timer
   function updateCountdown() {
@@ -76,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById('seconds').innerHTML = seconds.toString().padStart(2, '0');
     } else {
       // Display a message when the countdown ends
-      document.getElementById('countdown').innerHTML = 'Development Launch!';
+      document.getElementById('countdown').innerHTML = 'Sales Launched!';
     }
   }
 
@@ -159,6 +173,16 @@ document.getElementById("declineCookies").addEventListener("click", function() {
     // Perform any necessary actions for declining cookies
 });
 
+$("#search-icon").click(function() {
+  $(".nav").toggleClass("search");
+  $(".nav").toggleClass("no-search");
+  $(".search-input").toggleClass("search-active");
+});
+
+$('.menu-toggle').click(function(){
+   $(".nav").toggleClass("mobile-nav");
+   $(this).toggleClass("is-active");
+});
 
  $(document).ready(function() {
       $('[data-fancybox="gallery"]').fancybox({

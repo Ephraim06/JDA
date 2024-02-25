@@ -35,7 +35,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Young+Serif&display=swap"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+    rel="stylesheet">
   <!-- Floor Plan HTML -->
   <link rel="floor-plan-html" href="floor-plan.html" />
 
@@ -52,117 +56,61 @@
 
 <body>
   <!-- Spinner Start -->
-  <div id="spinner"
+  <!-- <div id="spinner"
     class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner-border position-relative text-warning" style="width: 6rem; height: 6rem" role="status"></div>
-  </div>
+  </div> -->
   <!-- Spinner End -->
-  <nav id="back-top" class="navbar navbar-expand-xlg navbar-dark bg-white">
-    <div class="container-fluid w3-bar w3-white w3-wide">
-      <a href="index.html" class="navbar-brand">
-        <img class="crown-icon" src="img/icons/king.png" width="36px" height="36px" alt="home" />
-        <strong>J.D.A</strong>
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand dancing-script" href="#page-top">J.D.A | Apartments
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false">
-        <i class="fa-solid fa-bars"></i>
+      <button class="navbar-btn navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="navbar-icon fa-solid fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html"><i class="nav-icon fa-solid fa-house"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#location"><i class="nav-icon fa-solid fa-location-arrow"></i> Location</a>
+            <a class="nav-link montserrat-script" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sales-launch"><i class="nav-icon fa-solid fa-rocket"></i> Sales Launch</a>
+            <a class="nav-link" href="sales.html">Sales</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#pre-qualification"><i class="nav-icon fa-solid fa-building-columns"></i>
-              Pre-Qualification</a>
+            <a class="nav-link montserrat-script" href="gallery.html">Gallery</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="nav-icon fa-solid fa-folder"></i> Documents
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="https://drive.google.com/uc?export=download&id=11yoZqKOS_a43Xz5ejLlFUiCN-9oPC2an"
-                  download="KDV-OfferToPurchase.pdf" class="dropdown-item" id="download-link"><i
-                    class="nav-icon fa-solid fa-download"></i> J.D.A - Offer To Purchase</a>
-              </li>
-              <li>
-              <li>
-                <hr class="dropdown-divider" />
-              </li>
-              <a href="https://drive.google.com/uc?export=download&id=15ncJZRJ1Qh7WAwQIdWZEh8jxVNEsCy1G"
-                download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
-                Annexure A - Sketch Plan</a>
+          <li class="nav-item">
+            <a class="nav-link montserrat-script" href="#about">Location</a>
           </li>
-          <li>
-            <hr class="dropdown-divider" />
+          <li class="nav-item">
+            <a href="#downloads" class="nav-link montserrat-script">Downloads</a>
           </li>
-          <li>
-            <a href="https://drive.google.com/uc?export=download&id=1E7G3LBQ0_OUV7JFk5E-ahBknwapAh0f_"
-              download="buyers-warranty" class="dropdown-item">
-              <i class="nav-icon fa-solid fa-download"></i> Annexure B - Site Plan</a>
+          <li class="nav-item">
+            <a class="nav-link montserrat-script" href="#signup">Contact</a>
           </li>
-          <li>
-          <li>
-            <hr class="dropdown-divider" />
-          </li>
-          <a href="https://drive.google.com/uc?export=download&id=1gapOdEa69vM0_pDWVGmC3lNhoLz1JxKY"
-            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
-            Annexure C - Finishing Schedules</a>
-          </li>
-          <li>
-          <li>
-            <hr class="dropdown-divider" />
-          </li>
-          <a href="https://drive.google.com/uc?export=download&id=12ZuEZwKiWZnDBerqRIZqzZNKlJfyX3zE"
-            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
-            Annexure D - Standard for Buillders</a>
-          </li>
-          <li>
-          <li>
-            <hr class="dropdown-divider" />
-          </li>
-          <a href="https://drive.google.com/uc?export=download&id=1Cdmcfe4QUr9lIHHG_b2o2QQvzbqcBTpk"
-            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
-            Annexure E - CMA Info Page Ident...</a>
-          </li>
-          <li>
-          <li>
-            <hr class="dropdown-divider" />
-          </li>
-          <a href="https://drive.google.com/uc?export=download&id=1IJR29X2MpyOYdqXJsLV1WLa7RrbUIE_O"
-            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
-            Annexure F - NHBRC</a>
-          </li>
-        </ul>
-        </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Header -->
-  <div class="header-container">
-    <header class="header-content" style="max-width: 1500px" id="home">
-      <div class="header-center">
-        <!-- <a href="index.html">
-          <img  src="img/logo/kdv.png" width="380px" height="240px" alt="logo" rounded />
-        </a> -->
-        <h1 class="kingdavidviewlogo text-white" style="font-size: xx-large;">J.D.A | DEVELOPMENT</h1>
-        <p class="kingdavidviewlogo text-white">Coral Road, Blouberg.</p>
 
-        <button class="brochure-btn kingdavidviewlogo" type="button">
-          View Brochure
-        </button>
+  <!-- Masthead-->
+  <header class="masthead">
+    <div class="text-div container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+      <div class="d-flex justify-content-center">
+        <div class="text-center">
 
+          <h1 class="mx-auto banner-text mb-lg-5">
+            Luxury Apartments in Coral Road
+          </h1>
+          <p class="selling-from">Selling from R1 500 000</p>
+        </div>
       </div>
-    </header>
+    </div>
+  </header>
   </div>
   <!-- Header -->
 
@@ -172,16 +120,15 @@
       <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h6>
       <h1>J.D.A Apartments: Luxury Living on Coral Road</h1>
       <p>
-        Discover Coral Road Apartments, where affordable luxury living meets your lifestyle needs. Nestled in a prime
-        location with convenient access to amenities, this property development is an unmissable opportunity tailored to
-        you.
+        Announcing the latest and most prestigious development in town - luxurious beachfront apartments boasting 2 and
+        3 bedrooms!
       </p>
       <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
-        With only 20 units available, each thoughtfully designed to offer
-        contemporary and comfortable living. A standout highlight of our
-        development is the generously sized balconies, some spanning up to 20m&sup2, providing a perfect space to unwind
-        and savor the
-        surrounding views
+        With only 14 exclusive units up for grabs, this presents an extraordinary opportunity to own a piece of
+        paradise. Featuring a convenient lift for easy access, the largest balconies in the area, and a power inverter
+        for uninterrupted comfort. These apartments are Airbnb-friendly, offering you the chance to earn while you're
+        away.
+
       </p>
       <div class="browseunits">
         <a href="#browseunitsModal">
@@ -200,7 +147,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="myModalLabel">King David View</h5>
+          <h5 class="modal-title" id="myModalLabel">J.D.A | Apartments</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -356,56 +303,6 @@
                   <span class="badge text-bg-success">Available</span>
                 </td>
               </tr>
-              <tr>
-                <td>15</td>
-                <td>50m&sup2</td>
-                <td><i class="fa-solid fa-bed"></i> 2</td>
-                <td><i class="fa-solid fa-bath"></i> 1</td>
-                <td>R1,125,000</td>
-                <td>
-                  <span class="badge text-bg-success">Available</span>
-                </td>
-              </tr>
-              <tr>
-                <td>16</td>
-                <td>50m&sup2</td>
-                <td><i class="fa-solid fa-bed"></i> 2</td>
-                <td><i class="fa-solid fa-bath"></i> 1</td>
-                <td>R1,125,000</td>
-                <td>
-                  <span class="badge text-bg-success">Available</span>
-                </td>
-              </tr>
-              <tr>
-                <td>17</td>
-                <td>50m&sup2</td>
-                <td><i class="fa-solid fa-bed"></i> 2</td>
-                <td><i class="fa-solid fa-bath"></i> 1</td>
-                <td>R1,125,000</td>
-                <td>
-                  <span class="badge text-bg-success">Available</span>
-                </td>
-              </tr>
-              <tr>
-                <td>18</td>
-                <td>50m&sup2</td>
-                <td><i class="fa-solid fa-bed"></i> 2</td>
-                <td><i class="fa-solid fa-bath"></i> 1</td>
-                <td>R1,125,000</td>
-                <td>
-                  <span class="badge text-bg-success">Available</span>
-                </td>
-              </tr>
-              <tr>
-                <td>19</td>
-                <td>50m&sup2</td>
-                <td><i class="fa-solid fa-bed"></i> 2</td>
-                <td><i class="fa-solid fa-bath"></i> 1</td>
-                <td>R1,125,000</td>
-                <td>
-                  <span class="badge text-bg-success">Available</span>
-                </td>
-              </tr>
             </tbody>
           </table>
         </div>
@@ -428,6 +325,10 @@
         Gallery
       </h6>
       <h1>Coral Road, Blouberg: Where Coastal Charm Meets Urban Convenience.</h1>
+      <p class="w3-border-bottom w3-border-light-grey">
+        Enjoy breathtaking sea views and embrace the coastal lifestyle you've always dreamed of. Situated close to all
+        amenities, this location offers convenience at your doorstep.
+      </p>
     </div>
   </div>
 
@@ -531,7 +432,7 @@
           Location
         </h6>
         <h1>
-          Blouberg, located in Cape Town, is renowned for its picturesque views of Table Mountain.
+          Blouberg - located in Cape Town, is renowned for its picturesque views of Table Mountain.
         </h1>
         <p class="w3-border-light-grey w3-padding-16">
           Located in Coral Road, Bloubergstrand. Our development offers proximity to popular destinations such as the
@@ -539,10 +440,11 @@
           Bayside Mall. Nature enthusiasts will appreciate the nearby Rietvlei Wetland Reserve.
         </p>
         <p>
-          Experience the best of coastal living and urban convenience at our development.
+          Indulge in luxury with rooftop recreational facilities, high-end finishes, and smart locks for secure and
+          convenient access from anywhere in the world.
         </p>
         <a
-          href="https://www.google.com/maps?ll=-33.814089,18.472978&z=16&t=m&hl=en&gl=ZA&mapclient=embed&q=Coral+Rd+Bloubergstrand+Cape+Town"><button
+          href="https://www.google.com/maps/place/70+Coral+Rd,+Table+View,+Cape+Town,+7439/@-33.812723,18.472319,16z/data=!4m6!3m5!1s0x1dcc5f9d1cf8484f:0x30aff7fb46170a23!8m2!3d-33.8127232!4d18.4723186!16s%2Fg%2F11csh9t_1w?hl=en&gl=ZA"><button
             class="available-btn" type="button">
             View on Google Maps
             <i class="fa-solid fa-location-dot"></i></button></a>
@@ -553,7 +455,7 @@
       <div class="mapouter">
         <div class="gmap_canvas">
           <iframe class="gmap_iframe"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.9311847370627!2d18.4729779!3d-33.81408890000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5f9da5305089%3A0x6256862443e2321a!2sCoral%20Rd%2C%20Bloubergstrand%2C%20Cape%20Town!5e0!3m2!1sen!2sza!4v1708599352171!5m2!1sen!2sza"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.9841075827167!2d18.4723186!3d-33.81272320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5f9d1cf8484f%3A0x30aff7fb46170a23!2s70%20Coral%20Rd%2C%20Table%20View%2C%20Cape%20Town%2C%207439!5e0!3m2!1sen!2sza!4v1708850678510!5m2!1sen!2sza"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
@@ -703,11 +605,16 @@
 
     <!-- Listing Card Start -->
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="w3-container w3-padding-top-32" id="about">
+        <h6 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+          Lifestyle
+        </h6>
+        <h1>Building Highlights</h1>
       <div class="w3-row-padding">
         <div class="card listing-card w3-display-container p-3 mb-5 bg-body shadow-sm w-100">
           <img src="img/renders/Balcony_1.png" class="card-img-top" alt="kdv-render" />
           <div class="card-body">
-            <h4 class="card-title listing-card-title">Two Bedrooms + Balcony</h4>
+            <h4 class="card-title listing-card-title">Two & Three Bedrooms + Balcony</h4>
             <h6 class="card-title listing-card-title">From R1 030 000</h6>
             <p class="card-text">
               The unit offers a 2 Bedroom with high-end schedules 50m&sup2 of living
@@ -752,6 +659,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
     <!-- Listing Card End -->
 
@@ -1147,7 +1055,7 @@
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
       <section id="sales-launch" class="container py-5">
         <header class="text-center mb-5">
-          <img class="card-img-top img-fluid" src="img/kdv-phone.png" alt="website-phone" />
+          <img class="card-img-top img-fluid" src="img/kdv-phone.p" alt="website-phone" />
         </header>
         <h2>Sales Launch</h2>
         <div id="countdown">
@@ -1158,8 +1066,7 @@
         </div>
         <br />
         <p>
-          With a limited number of apartments available to purchase at King David
-          View, the launch day is anticipated to draw a flurry of interested
+          With a limited number of apartments available to purchase at J.D.A, the launch day is anticipated to draw a flurry of interested
           investors.
         </p>
         <br />
@@ -1168,7 +1075,7 @@
           <li>Sales launch online at 1pm on <span class="goldenrod">Monday, 4 December 2023.</span></li>
           <li>Get pre-qualified with BetterBond.</li>
           <li>Shortlist your favourite apartments ahead of the launch.</li>
-          <li>Development Completion, <span class="goldenrod">October 2024.</span></li>
+          <li>Development Completion, <span class="goldenrod">TBC</span></li>
         </ul>
       </section>
     </div>
@@ -1390,55 +1297,54 @@
     <section class="contact-section bg-white">
       <div class="container-fluid bg-white">
         <div class="container">
-      <div style="
+          <div style="
           align-items: center !important;
           justify-content: center !important;
         " class="bg-white">
-        <p style="text-align: center" class="small text-black montserrat-script">
-          Another signature project by
-        </p>
-        <div class="row col-lg-12">
-          <div class="sponsors-col col">
-            <a href="https://www.deabreuandcohen.co.za">
-              <img class="sponsors"
-                src="https://deabreuandcohen.co.za/wp-content/uploads/2020/03/DC-Logo-Blue-02-e1585316258991.png"
-                alt="DAC" />
-            </a>
-          </div>
-          <div class="sponsors-col col">
-            <a href="https://www.remaxpropertyassociates.co.za/">
-              <img class="sponsors"
-                src="https://s3-eu-west-1.amazonaws.com/stream-images.remax.co.za/office/79/logo/propertyassociates.remax.co.za.png"
-                alt="DAC" />
-            </a>
-          </div>
-          <div class="sponsors-col col">
-            <a href="https://www.eurolux.co.za">
-              <img class="sponsors rounded" src="https://www.eurolux.co.za/images/Eurolux-Logo.jpg" alt="euro-lux" />
-            </a>
-          </div>
-          <div class="sponsors-col col">
-            <a href="https://www.instagram.com/casa.tiles">
-              <img class="sponsors rounded" src="https://kingdavidview.co.za/img/sponsors/casa-tiles.jpg"
-                alt="casa-tiles" />
-            </a>
-          </div>
-          <div class="sponsors-col col">
-            <a href="https://www.euronouveau.co.za">
-              <img class="sponsors rounded" style="background-color: #333 !important"
-                src="https://www.euronouveau.co.za/images/euro-nouveau-logo.png" alt="euro-nouveau" />
-            </a>
-          </div>
-          <div class="sponsors-col col">
-            <a href="#">
-              <img class="sponsors rounded"
-                src="https://images.pexels.com/photos/15204923/pexels-photo-15204923/free-photo-of-starbucks-cafe-logo-on-building-wall.jpeg"
-                alt="developer" />
-            </a>
+            <p style="text-align: center" class="small text-black montserrat-script">
+              Another signature project by
+            </p>
+            <div class="row col-lg-12">
+              <div class="sponsors-col col">
+                <a href="https://www.deabreuandcohen.co.za">
+                  <img class="sponsors"
+                    src="https://deabreuandcohen.co.za/wp-content/uploads/2020/03/DC-Logo-Blue-02-e1585316258991.png"
+                    alt="DAC" />
+                </a>
+              </div>
+              <div class="sponsors-col col">
+                <a href="https://www.remaxpropertyassociates.co.za/">
+                  <img class="sponsors"
+                    src="https://s3-eu-west-1.amazonaws.com/stream-images.remax.co.za/office/79/logo/propertyassociates.remax.co.za.png"
+                    alt="DAC" />
+                </a>
+              </div>
+              <div class="sponsors-col col">
+                <a href="https://www.eurolux.co.za">
+                  <img class="sponsors rounded" src="https://www.eurolux.co.za/images/Eurolux-Logo.jpg"
+                    alt="euro-lux" />
+                </a>
+              </div>
+              <div class="sponsors-col col">
+                <a href="https://www.instagram.com/casa.tiles">
+                  <img class="sponsors rounded" src="https://kingdavidview.co.za/img/sponsors/casa-tiles.jpg"
+                    alt="casa-tiles" />
+                </a>
+              </div>
+              <div class="sponsors-col col">
+                <a href="https://www.euronouveau.co.za">
+                  <img class="sponsors rounded" style="background-color: #333 !important"
+                    src="https://www.euronouveau.co.za/images/euro-nouveau-logo.png" alt="euro-nouveau" />
+                </a>
+              </div>
+              <div class="sponsors-col col">
+                <a href="#">
+                  <img class="sponsors rounded" src="img/sponsors/dev-logo.jpg" alt="developer" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
       </div>
     </section>
 
@@ -1449,84 +1355,112 @@
     <!-- Contact Agent Floating Button End -->
 
     <!-- Contact Agent Floating Button Modal Start -->
-  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header bg-site-clr">
-          <h2 class="modal-h5 montserrat-script">Contact Agent</h2>
-        </div>
-        <div class="modal-body p-2">
-          <div class="row">
-            <div class="col">
-              <img src="img/agents/marceleno-volkwyn.png" alt="Marceleno" style="width: 100%"
-                class="agent-img rounded float-start w3-grayscale pt-5" />
-            </div>
-            <div class="agent-img-col col float-start pt-5">
-              <h3>Marceleno Volkwyn</h3>
-              <p class="w3-border-bottom w3-border-light-grey">
-                Development Expert
-              </p>
-            </div>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-site-clr">
+            <h2 class="modal-h5 montserrat-script">Contact Agent</h2>
           </div>
-          <p style="font-size: small !important;">Choose your preferred communication option below.</p>
-          <div class="container text-center">
+          <div class="modal-body p-2">
             <div class="row">
-              <div class="modal-cols col">
-                <a href="https://wa.link/pt7h1y"><i class="modal-icon fa-brands fa-square-whatsapp"></i></a>
+              <div class="col">
+                <img src="img/agents/marceleno-volkwyn.png" alt="Marceleno" style="width: 100%"
+                  class="agent-img rounded float-start w3-grayscale pt-5" />
               </div>
-              <div class="modal-cols col">
-                <a href="mailto:marceleno@remaxpa.co.za"><i class="modal-icon fa-solid fa-envelope"></i></a>
-              </div>
-              <div class="modal-cols col">
-                <a href="tel:0762800303"><i class="modal-icon fa-solid fa-square-phone"></i></a>
+              <div class="agent-img-col col float-start pt-5">
+                <h3>Marceleno Volkwyn</h3>
+                <p class="w3-border-bottom w3-border-light-grey">
+                  Development Expert
+                </p>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <img src="img/agents/jann-gill.png" alt="Jann" style="width: 100%"
-                class="agent-img rounded float-start w3-grayscale pt-5" />
+            <p style="font-size: small !important;">Choose your preferred communication option below.</p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="modal-cols col">
+                  <a href="https://wa.link/pt7h1y"><i class="modal-icon fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <div class="modal-cols col">
+                  <a href="mailto:marceleno@remaxpa.co.za"><i class="modal-icon fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="modal-cols col">
+                  <a href="tel:0762800303"><i class="modal-icon fa-solid fa-square-phone"></i></a>
+                </div>
+              </div>
             </div>
-            <div class="agent-img-col col float-start pt-5">
-              <h3>Jann Gill</h3>
-              <p class="w3-border-bottom w3-border-light-grey">
-                Development Expert
-              </p>
-            </div>
-          </div>
-          <p style="font-size: small !important;">Choose your preferred communication option below.</p>
-          <div class="container text-center">
             <div class="row">
-              <div class="modal-cols col">
-                <a href="https://wa.link/pkjr4r"><i class="modal-icon fa-brands fa-square-whatsapp"></i></a>
+              <div class="col">
+                <img src="img/agents/jann-gill.png" alt="Jann" style="width: 100%"
+                  class="agent-img rounded float-start w3-grayscale pt-5" />
               </div>
-              <div class="modal-cols col">
-                <a href="mailto:jann@remaxpa.co.za"><i class="modal-icon fa-solid fa-envelope"></i></a>
+              <div class="agent-img-col col float-start pt-5">
+                <h3>Jann Gill</h3>
+                <p class="w3-border-bottom w3-border-light-grey">
+                  Development Expert
+                </p>
               </div>
-              <div class="modal-cols col">
-                <a href="tel:0832736001"><i class="modal-icon fa-solid fa-square-phone"></i></a>
+            </div>
+            <p style="font-size: small !important;">Choose your preferred communication option below.</p>
+            <div class="container text-center">
+              <div class="row">
+                <div class="modal-cols col">
+                  <a href="https://wa.link/pkjr4r"><i class="modal-icon fa-brands fa-square-whatsapp"></i></a>
+                </div>
+                <div class="modal-cols col">
+                  <a href="mailto:jann@remaxpa.co.za"><i class="modal-icon fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="modal-cols col">
+                  <a href="tel:0832736001"><i class="modal-icon fa-solid fa-square-phone"></i></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Contact Agent Floating Button Modal End -->
+    <!-- Contact Agent Floating Button Modal End -->
+
+    <!-- Modal -->
+    <div class=" modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content downloads-modal">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Downloads</h1>
+            <button type="button" class="btn-close text-white" data-bs-backdrop="static" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul style="text-decoration: none !important;">
+              <p><a class="text-none goldenrod" href="assets/documents/">
+                  <li><i class="fa-solid fa-download"></i> JDA | Offer to Purchase </li>
+                </a></p>
+              <p><a class="text-none goldenrod" href="assets/documents/Annexure D - Standard for Buillders.pdf">
+                  <li><i class="fa-solid fa-download"></i> Annexure D - Standard for Builders </li>
+                </a></p>
+              <p><a class="text-none goldenrod" href="assets/documents/JDA_FINISHING_SCHED Coral Road.pdf">
+                  <li><i class="fa-solid fa-download"></i> JDA | Finishing Schedule </li>
+                </a></p>
+            </ul>
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="w3-center">
       <div class="container-fluid copyright">
         <div class="container">
           <div class="row">
-            <div class="col">
-              <a href="#back-top">
-                <img src="img/icons/king.png" alt="king.png" width="50px" height="50px" />
-              </a>
+            <div id="downloads" class="col">
+              <a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                class="price-btn btn montserrat-script">Downloads</a>
             </div>
             <div class="row g-2">
               <div class=" text-center">
-                <p class="mb-2">Coral Road, Blouberg | Cape Town.</p>
+                <p class="mb-2">70 Coral Road, Blouberg | Cape Town.</p>
               </div>
             </div>
             <div class="text-center mb-3 mb-md-0">

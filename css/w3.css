@@ -8,6 +8,17 @@ html {
   box-sizing: inherit;
 }
 
+.selling-from {
+  background-color: #00000041;
+  color: #fff !important;
+  border-radius: 5px;
+  width: 30% !important;
+  align-items:  center !important;
+  text-align: center !important;
+  margin: auto;
+  font-size: large;
+}
+
 @media only screen and (min-width: 768px) {
   .carousel {
     padding: 15px 65px 15px 65px !important;
@@ -37,12 +48,91 @@ html {
     border-color: #d4af37 !important;
     border-style: solid;
   }
+  .selling-from {
+  background-color: #00000041;
+  color: #fff !important;
+  border-radius: 5px;
+  width: 100% !important;
+  align-items:  center !important;
+  text-align: center !important;
+  margin: auto;
+  font-size: x-large;
+}
+}
+
+.nectar-scroll-icon {
+  font-size: 5% !important;
+}
+
+.scroll-icon {
+  position: relative;
+  margin-top: 300px;
+  bottom: 0;
+  transform: translateX(-50%);
+  display: flex;
+  width: 2.6%;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #ffffffb9;
+  border-radius: 23px;
+  padding: 20px 10px;
+  animation: myAnim 2.5s ease-in-out 0s infinite normal forwards;
+  font-size: 80%;
+  color: #fff;
+}
+
+
+@keyframes myAnim {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.scroll-icon:hover {
+  background-color: transparent;
+  color: #16697A !important;
+  border-color: goldenrod !important;
+  cursor: pointer;
+  transition: background-color 1s, border-color 1s;
+}
+
+@media (max-width: 768px) {
+  .scroll-icon {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    align-items: baseline;
+    width: 10%;
+    transform: translateX(-50%);
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .carousel {
     padding: 0 !important;
   }
+  .banner-text{
+  margin-bottom: 60px !important;
+}
+.text-div {
+  margin-bottom: 100px;
+}
+}
+
+.text-none {
+  text-decoration: none !important;
+}
+
+.downloads-modal {
+  background-color: #333 !important;
 }
 
 .dropdown-item {
@@ -235,7 +325,7 @@ h6 {
   width: 5rem;
   height: 5rem;
   background-color: white;
-  border: 2px solid #d4af37;
+  border: 2px solid #333;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -271,7 +361,7 @@ h6 {
   height: 100%;
   width: 100%;
   padding: 2%;
-  border: 2.5px solid #d4af37;
+  border: 2.5px solid #333;
   border-radius: 8px;
   margin: 2%;
   background-color: #fff;
@@ -471,9 +561,15 @@ em {
 
 /* NAV BAR */
 .navbar {
-  padding: 10px 0; /* Adjust padding as needed */
-  border: 1px #d4af37 solid !important;
-  border-radius: 0%;
+ 
+}
+
+.price-btn {
+  font-size: 14px !important;
+  padding: 10px 15px !important;
+  line-height: 1.5 !important;
+  color: #fff !important;
+  background-color: goldenrod !important;
 }
 
 
@@ -483,7 +579,7 @@ em {
 }
 
 .nav-link {
-  color: black !important;
+  color: goldenrod !important;
 }
 .nav-icon{
   color: #d4af37 !important;
@@ -505,6 +601,10 @@ strong{
   color: black !important;
   font-family: 'Montserrat', sans-serif !important;
   font-size: 0.9em;
+}
+
+.montserrat-script{
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 /* Footer */
@@ -797,7 +897,7 @@ h3,
 h4,
 h5,
 h6, .count-down {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif !important;
     font-weight: 400 !important;
     margin: 10px 0;
 }
@@ -832,7 +932,7 @@ hr {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url('https://i.ibb.co/tHQbH5w/carousel-1.jpg') no-repeat center center;
+  background: url('https://i.ibb.co/w6R61pV/Exterior-1.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -843,8 +943,7 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(10px); /* Adjust the opacity as needed */
-   /* Place it above the background image */
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .kingdavidviewlogo {  
@@ -854,6 +953,7 @@ hr {
   display: block;
   margin: auto !important;
   font-weight: 900 !important;
+  font-family: "Playfair", serif !important;
   font-size: x-large;
 }
 
@@ -903,6 +1003,190 @@ hr {
   &:active {
     background-color: #d4af37; /* Even darker color when active */
   }
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/w6R61pV/Exterior-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1,
+.masthead .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.masthead h2,
+.masthead .h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+  color: #fff !important;
+  opacity: 80%;
+}
+
+@media (min-width: 768px) {
+
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+  .masthead h2,
+  .masthead .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+.navbar-btn {
+  color: #16697A;
+  background-color: #fff;
+  padding: 10px 15px !important;
+}
+
+.navbar-icon {
+  font-size: x-large !important;
+}
+
+.navbar-btn {
+  color: #16697A;
+  background-color: #fff;
+  padding: 10px 15px !important;
+}
+
+.navbar-icon {
+  font-size: x-large !important;
+}
+
+#mainNav {
+  min-height: 3.5rem;
+  background-color: #fff;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #16697A;
+  border: none !important;
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
+
+#mainNav .navbar-brand {
+  color: #000;
+  opacity: 100% !important;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(#fff, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active,
+#mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #mainNav .navbar-brand {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #mainNav .nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  #mainNav .nav-link:active {
+    color: #fff;
+  }
+
+  #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #fff;
+  }
+
+  #mainNav.navbar-shrink .nav-link {
+    color: #fff;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #16697A;
+  }
+
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #16697A;
+    outline: none;
+    border-bottom: 0.25rem solid #16697A;
+  }
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
 }
 
 
