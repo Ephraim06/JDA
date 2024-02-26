@@ -325,7 +325,7 @@ h6 {
   width: 5rem;
   height: 5rem;
   background-color: white;
-  border: 2px solid #333;
+  border: 2px solid #2196f3;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -354,14 +354,22 @@ h6 {
 
 .modal-icon {
   font-size: 30px;
-  color: #d4af37;
+  color: #2196f3;
+}
+
+.site-blue {
+  color: #2196f3 !important;
+}
+
+.bg-site-blue {
+  background-color: #2196f3 !important;
 }
 
 .modal-cols {
   height: 100%;
   width: 100%;
   padding: 2%;
-  border: 2.5px solid #333;
+  border: 2.5px solid #2196f3;
   border-radius: 8px;
   margin: 2%;
   background-color: #fff;
@@ -452,7 +460,7 @@ em {
   justify-content: space-between;
   align-items: center !important;
   width: 50% !important;
-  border: 1px solid #d4af37;
+  border: 1px solid #2196f3 !important;
   border-radius: 5px;
   padding: 25px 25px 25px 25px !important;
   transition: transform 0.2s;
@@ -485,7 +493,6 @@ em {
   margin: auto !important;
   align-items: center !important;
   display: inherit !important;
-  border-radius: 5px !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -667,7 +674,7 @@ footer .copyright a:hover {
   color: #d4af37;
 }
 .available-btn {
-  border: #d4af37 solid;
+  border: #2196f3 solid;
   color: black;
   background-color: #fff !important;
   padding: 10px;
@@ -932,7 +939,7 @@ hr {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url('https://i.ibb.co/w6R61pV/Exterior-1.png') no-repeat center center;
+  background: url('https://i.ibb.co/vJLdJKs/masthead.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -1011,7 +1018,7 @@ hr {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/w6R61pV/Exterior-1.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/vJLdJKs/masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
