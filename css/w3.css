@@ -586,10 +586,16 @@ em {
 }
 
 .nav-link {
-  color: goldenrod !important;
+  color: #fff !important;
 }
 .nav-icon{
   color: #d4af37 !important;
+}
+
+@media only screen and (min-width: 782px) {
+  .nav-icon {
+    display: none !important;
+  }
 }
 
 .nav-link:hover {
