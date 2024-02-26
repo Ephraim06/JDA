@@ -586,7 +586,7 @@ em {
 }
 
 .nav-link {
-  color: #fff !important;
+  color: #fff;
 }
 .nav-icon{
   color: #d4af37 !important;
@@ -1782,6 +1782,9 @@ a {
     margin: 0 10px;
     width: auto !important;
   }
+    .nav-link {
+      color: goldenrod;
+    }
   .w3-modal {
     padding-top: 30px;
   }
