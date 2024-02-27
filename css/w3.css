@@ -8,6 +8,8 @@ html {
   box-sizing: inherit;
 }
 
+
+
 .inverter-carousel {
   width: 100% !important;
   height: auto;
@@ -45,6 +47,26 @@ html {
   .carousel {
     padding: 15px 65px 15px 65px !important;
   }
+  .container-img-right {
+  display: flex;
+  flex-direction: row;
+}
+.content,
+.image {
+  flex: 1;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+.content {
+  padding: 20px;
+}
+}
+
+.offcanvas {
+  height: 100% !important;
+  width: 100% !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -347,7 +369,7 @@ h6 {
   width: 5rem;
   height: 5rem;
   background-color: white;
-  border: 2px solid #2196f3;
+  border: 1.5px solid #2196f3;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -509,13 +531,13 @@ em {
   border-radius: 5px !important;
 }
 
-.img-fluid{
+/* .img-fluid{
   width: 70% !important;
   height: auto !important;
   margin: auto !important;
   align-items: center !important;
   display: inherit !important;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .img-fluid {
