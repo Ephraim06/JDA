@@ -8,6 +8,28 @@ html {
   box-sizing: inherit;
 }
 
+.inverter-carousel {
+  width: 100% !important;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 25rem !important;
+  left: 70% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .dropdown-menu {
+      --bs-dropdown-min-width: 25rem !important;
+      left: 0 !important;
+    }
+}
+
+
+
 .selling-from {
   background-color: #00000041;
   color: #fff !important;
@@ -137,7 +159,7 @@ html {
 
 .dropdown-item {
   font-family: 'Montserrat', sans-serif !important;
-  font-size: 65% !important;
+  font-size: 15px !important;
 }
 
 html {
@@ -595,6 +617,13 @@ em {
 @media only screen and (min-width: 782px) {
   .nav-icon {
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-icon-social {
+    font-size: x-large;
+    color: goldenrod !important;
   }
 }
 
@@ -1784,6 +1813,7 @@ a {
   }
     .nav-link {
       color: goldenrod;
+      font-size: large !important;
     }
   .w3-modal {
     padding-top: 30px;
@@ -2269,6 +2299,9 @@ a {
 }
 .w3-padding-top-32{
   padding-top: 32px !important;
+}
+.w3-padding-top-80{
+  padding-top: 80px !important;
 }
 .w3-padding-48 {
   padding-top: 48px !important;

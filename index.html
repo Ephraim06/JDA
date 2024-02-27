@@ -66,9 +66,8 @@
     <div class="container px-4 px-lg-5">
       <a class="navbar-brand dancing-script" href="#page-top">J.D.A | Apartments
       </a>
-      <button class="navbar-btn navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-btn navbar-toggler navbar-toggler-right" class="btn btn-primary" type="button"
+        data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
         <i class="navbar-icon fa-solid fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -143,21 +142,119 @@
             download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
             Annexure F - NHBRC</a>
           </li>
-
-
         </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link montserrat-script" href="#contact">Contact</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link montserrat-script" href="#contact">Chance to Earn While you're away</a>
-        </li>
+        </li> -->
         </ul>
       </div>
     </div>
   </nav>
 
+  <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title w3-padding-16" id="staticBackdropLabel"><strong>J.D.A | Apartments</strong></h3>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <img src="img/white-space.jpg" class="img-fluid" alt="">
+    <div class="offcanvas-body">
+      <div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="nav-icon fa-solid fa-house"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#location"><i class="nav-icon fa-solid fa-location-arrow"></i> Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sales-launch"><i class="nav-icon fa-solid fa-rocket"></i> Sales Launch</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pre-qualification"><i class="nav-icon fa-solid fa-building-columns"></i>
+              Pre-Qualification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="nav-icon fa-solid fa-folder"></i> Documents
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="assets/documents/" download="KDV-OfferToPurchase.pdf" class="dropdown-item"
+                  id="download-link"><i class="nav-icon fa-solid fa-download"></i> JDA | Offer to Purchase</a>
+
+              </li>
+              <li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <a href="assets/documents/Approved Plan.pdf" download="building-specifications" class="dropdown-item"><i
+                  class="nav-icon fa-solid fa-download"></i>
+                Annexure A - Sketch Plan</a>
+          </li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <li>
+            <a href="assets/documents/Approved Plan.pdf" download="buyers-warranty" class="dropdown-item">
+              <i class="nav-icon fa-solid fa-download"></i> Annexure B - Site Plan</a>
+          </li>
+          <li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <a href="assets/documents/JDA_FINISHING_SCHED Coral Road.pdf" download="building-specifications"
+            class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+            Annexure C - Finishing Schedules</a>
+          </li>
+          <li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <a href="assets/documents/Annexure D - Standard for Buillders.pdf" download="building-specifications"
+            class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+            Annexure D - Standard for Buillders</a>
+          </li>
+          <li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <a href="https://drive.google.com/uc?export=download&id=1Cdmcfe4QUr9lIHHG_b2o2QQvzbqcBTpk"
+            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+            Annexure E - CMA Info Page Ident...</a>
+          </li>
+          <li>
+          <li>
+            <hr class="dropdown-divider" />
+          </li>
+          <a href="https://drive.google.com/uc?export=download&id=1IJR29X2MpyOYdqXJsLV1WLa7RrbUIE_O"
+            download="building-specifications" class="dropdown-item"><i class="nav-icon fa-solid fa-download"></i>
+            Annexure F - NHBRC</a>
+          </li>
+        </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link montserrat-script" href="#contact"><i class="nav-icon fa-solid fa-address-book"></i>
+            Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link montserrat-script" href="#contact"><i class="nav-icon fa-brands fa-airbnb"></i> Chance to
+            Earn While you're away</a>
+        </li>
+        </ul>
+      </div>
+      <div class="text-centerpt-2 w3-padding-top-80">
+        <a class="btn btn-square btn-outline-body me-1" href="###"><i
+            class="nav-icon-social fa-brands fa-square-facebook"></i>
+        </a>
+        <a class="btn btn-square btn-outline-body me-1" href="###"><i class="nav-icon-social fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
 
   <!-- Masthead-->
   <header class="masthead">
@@ -550,39 +647,26 @@
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="fa-solid fa-location-dot"></i>
           3.8km to Eden on the Bay | Big Bay.
-          <img src="https://lh3.googleusercontent.com/p/AF1QipMJz5er4PDfCf8cUqe1JETTq8YkEvXgeu4gc4Ko=s1360-w1360-h1020"
-            class="img-fluid" alt="">
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="fa-solid fa-location-dot"></i>
           2.3km to Bay Side Mall | Table View.
-          <img src="https://lh3.googleusercontent.com/p/AF1QipPKPis4SwY5wEn9HYf4ygFXlN2jQfpUJFM4GoaM=s680-w680-h510"
-            class="img-fluid" alt="">
-        </p>
-        <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
-          <i class="fa-solid fa-location-dot"></i>
-          5.6km to Table Bay | Shopping Centre.
-          <img src="https://lh3.googleusercontent.com/p/AF1QipPb-PMQ-iNGlHd75oFdNa6lOQJHjKpY01aiiIq2=s680-w680-h510"
-            class="img-fluid" alt="">
-        </p>
-        <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
-          <i class="fa-solid fa-location-dot"></i>
-          11.4km to Canal Walk | Shopping Center.
-          <img src="https://lh3.googleusercontent.com/p/AF1QipN6HaGhX_fg3eAPcb8fRAPH1CKLLvGO-raS14Ws=s680-w680-h510"
-            class="img-fluid" alt="">
-        </p>
-        <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
-          <i class="fa-solid fa-location-dot"></i>
-          18.8km to Cape Town | City Centre.
-          <img
-            src="https://images.unsplash.com/photo-1545510120-66374ff70e4f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            class="img-fluid" alt="">
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="fa-solid fa-location-dot"></i>
           2.3km to Netcare Blaauwberg | Hospital
-          <img src="https://lh3.googleusercontent.com/p/AF1QipM1WiIDN-TFoRF4bx9gDwhzdOnz4A98qDAx9FT-=s680-w680-h510"
-            class="img-fluid" alt="">
+        </p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
+          <i class="fa-solid fa-location-dot"></i>
+          5.6km to Table Bay | Shopping Centre.
+        </p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
+          <i class="fa-solid fa-location-dot"></i>
+          11.4km to Canal Walk | Shopping Center.
+        </p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
+          <i class="fa-solid fa-location-dot"></i>
+          18.8km to Cape Town | City Centre.
         </p>
       </div>
     </div>
@@ -598,33 +682,65 @@
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="highlight-icon fa-solid fa-elevator"></i>
           Elevator/lift access for convenient vertical transportation.
-          <img src="img/renders/Exterior_2.png" class="img-fluid" alt="">
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="highlight-icon fa-solid fa-maximize"></i>
           The units offer a 3 or 2 Bedroom with high-end schedules, with 80m&sup2 of living
           space, along with balconies of up to 20m&sup2.
-          <img src="img/renders/bed_2.png" class="img-fluid" alt="">
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="highlight-icon fa-solid fa-plug"></i>
           Optional inverters are available for backup power, ensuring
-          uninterrupted electricity supply. <a class="text-none goldenrod"
-            href="assets/documents/Arcadia-Resi Portable ESS.pdf">Learn More...</a>
-          <img src="img/inverter.jpg" class="img-fluid" alt="">
+          uninterrupted electricity supply.
+        <div class="card" style="width: 100% !important;">
+          <img src="img/inverter/img-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Arcadia | Portable ALL-IN-ONE Energy Saver</h5>
+            <p class="card-text">
+              <h6>Features</h6>
+              <ul>
+                <div class="row">
+                  <div class="col">
+                    <li>
+                  Plug & Play.
+                </li>
+                <li>
+                  Reliable pure sine wave output.
+                </li>
+                <li>
+                 Seamless power backup (up to 10ms transfer time). 
+                </li>
+                <li>
+                  2500 cycles’ long life LiFePO4 battery.
+                </li>
+                  </div>
+                  <div class="col">
+                    <li>
+                 Built-in BMS protection. 
+                </li>
+                <li>
+                  Quickly recharge with powerful charger.
+                </li>
+                <li>
+                  Expandable battery packs as options.
+                </li>
+                  </div>
+                </div>
+                
+              </ul>
+            </p>
+            <a href="assets/documents/Arcadia-Resi Portable ESS.pdf" class="available-btn text-none">View Brochure</a>
+          </div>
+        </div>
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="highlight-icon fa-solid fa-mountain-sun"></i>
           Enjoy breathtaking mountain and sea views from the unit.
-          <img src="img/renders/Balcony_1.png" class="img-fluid" alt="">
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="highlight-icon fa-solid fa-shield"></i>
           The building features biometric access control and CCTV surveillance,
           providing a high level of security.
-          <img
-            src="https://images.pexels.com/photos/5966513/pexels-photo-5966513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            class="img-fluid" alt="">
         </p>
         <p class="w3-border-bottom w3-border-light-grey w3-padding-16">
           <i class="highlight-icon fa-solid fa-bell-concierge"></i>
