@@ -138,7 +138,7 @@ html {
     height: 10% !important;
     border-radius: 50px;
     /* Makes them circular */
-    border-color: #d4af37 !important;
+    border-color: #B6D0E2 !important;
     border-style: solid;
   }
 }
@@ -148,7 +148,7 @@ html {
     width: 80% !important;
     height: 20% !important;
     border-radius: 50px;
-    border-color: #d4af37 !important;
+    border-color: #B6D0E2 !important;
     border-style: solid;
   }
   .selling-from {
@@ -202,7 +202,7 @@ html {
 .scroll-icon:hover {
   background-color: transparent;
   color: #16697A !important;
-  border-color: goldenrod !important;
+  border-color: #B6D0E2 !important;
   cursor: pointer;
   transition: background-color 1s, border-color 1s;
 }
@@ -338,7 +338,7 @@ html {
 /* Custom Video Controls Styling */
 video::-webkit-media-controls-play-button,
 video::-webkit-media-controls-pause-button {
-  border: 2px solid #d4af37 !important;
+  border: 2px solid #B6D0E2 !important;
   background-color: transparent !important;
   border-radius: 50%;
   padding: 5px;
@@ -348,7 +348,7 @@ video::-webkit-media-controls-pause-button {
 
 video::-webkit-media-controls-play-button:hover,
 video::-webkit-media-controls-pause-button:hover {
-  background-color: #d4af37 !important;
+  background-color: #B6D0E2 !important;
   color: white !important;
 }
 
@@ -371,7 +371,7 @@ video::-webkit-media-controls-download-button {
  
 .carousel-inner{
   border-radius: 0% !important;
-  border: #d4af37 2.5px !important;
+  border: #B6D0E2 2.5px !important;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -382,12 +382,12 @@ video::-webkit-media-controls-download-button {
 
 
 h6 {
-  color: #d4af37 !important;
+  color: #B6D0E2 !important;
 }
 
 /* Change inactive button styles */
 .carousel-control-next-icon, .carousel-control-prev-icon{
-  background-color: #d4af37; /* Inactive color */
+  background-color: #B6D0E2; /* Inactive color */
 }
 
 
@@ -523,7 +523,7 @@ h6 {
 }
 
 .modal-h5{
-  color: #d4af37;
+  color: #B6D0E2;
 }
 
 em {
@@ -545,14 +545,14 @@ em {
 
 .highlight-icon{
   font-size: large;
-  color: #d4af37;
+  color: #B6D0E2;
 }
 
 /* ON LOAD MODAL */
 
 .count-down {
   font-size: x-large;
-  color: #d4af37 !important;
+  color: #B6D0E2 !important;
 }
 
 /* LISTING CARD */
@@ -576,7 +576,7 @@ em {
       justify-content: space-between;
       align-items: center !important;
       width: 100% !important;
-      border: 1px solid #d4af37;
+      border: 1px solid #B6D0E2;
       border-radius: 5px;
       padding: 25px 25px 25px 25px !important;
       transition: transform 0.2s;
@@ -675,7 +675,7 @@ em {
   padding: 10px 15px !important;
   line-height: 1.5 !important;
   color: #fff !important;
-  background-color: goldenrod !important;
+  background-color: #B6D0E2 !important;
 }
 
 
@@ -688,7 +688,7 @@ em {
   color: #fff;
 }
 .nav-icon{
-  color: #d4af37 !important;
+  color: #B6D0E2 !important;
 }
 
 @media only screen and (min-width: 782px) {
@@ -700,7 +700,7 @@ em {
 @media only screen and (max-width: 600px) {
   .nav-icon-social {
     font-size: x-large;
-    color: goldenrod !important;
+    color: #B6D0E2 !important;
   }
 }
 
@@ -709,8 +709,8 @@ em {
 }
 
 .navbar-toggler, .btn-close {
-  background-color: #d4af37; /* Hamburger icon color */
-  border: 2px #d4af37 solid !important;
+  background-color: #B6D0E2; /* Hamburger icon color */
+  border: 2px #B6D0E2 solid !important;
 }
 
 .fa-bars{
@@ -736,7 +736,7 @@ footer {
 }
 
 footer a {
-  color: #d4af37; /* Set link color to goldenrod */
+  color: #B6D0E2; /* Set link color to goldenrod */
   text-decoration: none; /* Remove underline from links */
   transition: color 0.3s; /* Add a smooth color transition effect */
 }
@@ -761,11 +761,11 @@ footer .copyright {
 }
 
 footer .copyright a {
-  color: #d4af37;
+  color: #B6D0E2;
 }
 
 footer .copyright a:hover {
-  color: #ffD700; /* Change link color on hover */
+  color: #B6D0E2; /* Change link color on hover */
 }
 
 /* Responsive Styles */
@@ -783,7 +783,7 @@ footer .copyright a:hover {
 }
 .fa-location-dot {
   font-size: large;
-  color: #d4af37;
+  color: #B6D0E2;
 }
 .available-btn {
   border: #2196f3 solid;
@@ -795,7 +795,7 @@ footer .copyright a:hover {
 }
 
 .cookies-btn {
-  border: 2px #d4af37 solid !important;
+  border: 2px #B6D0E2 solid !important;
   color: #fff !important;
   background-color: #333 !important;
   padding: 10px;
@@ -1093,7 +1093,7 @@ hr {
   line-height: 1.6em;
   margin-top: 20px;
   padding: 25px;
-  color: #d4af37 !important; /* Use a gold color */
+  color: #B6D0E2 !important; /* Use a gold color */
   background: linear-gradient(90deg, #ffd700, #ffcc00); /* Add a subtle gold gradient */
   background-clip: text;
   -webkit-background-clip: text;
@@ -1105,7 +1105,7 @@ hr {
 }
 
 .header-button {
-  background-color: #d4af37; /* MUI primary button color */
+  background-color: #B6D0E2; /* MUI primary button color */
   color: #fff; /* Text color for contrast */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -1118,11 +1118,13 @@ hr {
     background-color: rgb(199, 161, 67); /* Darker color on hover */
   }
 
-  /* Active effect (when clicked) */
+  /* Active effect (when clicked) https://i.ibb.co/vJLdJKs/masthead.jpg */
   &:active {
-    background-color: #d4af37; /* Even darker color when active */
+    background-color: #B6D0E2; /* Even darker color when active */
   }
 }
+
+
 
 .masthead {
   position: relative;
@@ -1130,11 +1132,26 @@ hr {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/vJLdJKs/masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/V3RgjZq/kite-surfing.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .masthead {
+      position: relative;
+      width: 100%;
+      height: auto;
+      min-height: 35rem;
+      padding: 15rem 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/1LKYNPQ/kite-surfing-mobi.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    }
 }
 
 .masthead h1,
@@ -1322,7 +1339,7 @@ hr {
 
   /* Style the button */
 .modal-btn {
-  background-color: #d4af37; /* Button background color */
+  background-color: #B6D0E2; /* Button background color */
   color: #fff; /* Text color */
   padding: 10px 20px; /* Padding around the text */
   border: none;
@@ -1347,14 +1364,14 @@ hr {
 
 /* Adjust button appearance on hover */
 .modal-btn, .available-btn:hover {
-  background-color: #d4af37;
+  background-color: #B6D0E2;
   opacity: 80%; /* Change color on hover */
 }
 .git-btn{
   background-color: #fff; /* Button background color */
   color: black; /* Text color */
   padding: 2.5px 5px; /* Padding around the text */
-  border: #d4af37 solid 1.8px;
+  border: #B6D0E2 solid 1.8px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
@@ -1369,18 +1386,18 @@ hr {
 
 /* Adjust button appearance on hover */
 .git-btn:hover {
-  background-color: #d4af37;
+  background-color: #B6D0E2;
   opacity: 50%; /* Change color on hover */
 }
 
 .fa-address-card, .goldenrod {
-  color: #d4af37;
+  color: #B6D0E2;
 }
 
 /* ACCORDION */
 
 .accordion-button{
-  color: #d4af37 !important;
+  color: #B6D0E2 !important;
 }
 
 .fa-warehouse,
@@ -1391,7 +1408,7 @@ hr {
 }
 
 #viewFloorPlansBtn {
-  background-color: #d4af37; /* MUI primary button color */
+  background-color: #B6D0E2; /* MUI primary button color */
   color: #fff; /* Text color for contrast */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -1406,7 +1423,7 @@ hr {
 
   /* Active effect (when clicked) */
   &:active {
-    background-color: #d4af37; /* Even darker color when active */
+    background-color: #B6D0E2; /* Even darker color when active */
   }
 }
 
@@ -1889,7 +1906,7 @@ a {
     width: auto !important;
   }
     .nav-link {
-      color: goldenrod;
+      color: #B6D0E2;
       font-size: large !important;
     }
   .w3-modal {
