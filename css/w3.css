@@ -8,7 +8,66 @@ html {
   box-sizing: inherit;
 }
 
+/* agent section */
+.contact-profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+}
 
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  filter: grayscale(80%);
+}
+.agent-office-logo {
+  width: 30% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto !important;
+}
+
+.profile h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-profile {
+    flex-direction: column;
+  }
+
+  .profile img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profile h2 {
+    font-size: 16px;
+  }
+
+  .profile p {
+    font-size: 14px;
+  }
+  .agent-office-logo {
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: auto !important;
+}
+}
 
 .inverter-carousel {
   width: 100% !important;
@@ -554,12 +613,8 @@ em {
   font-size: 18px;
 }
 
-.listing-card-icon {
-  font-size: 18px;
-}
-
 /* Mobile styles */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .card.listing-card {
     flex-direction: column;
     padding: 25px 25px 25px 25px !important;
@@ -586,7 +641,7 @@ em {
   }
 
   .listing-card-icon {
-    font-size: 16px;
+    font-size: 13px !important;
   }
 
   .modal-btn {
@@ -1332,7 +1387,7 @@ hr {
 .fa-bed,
 .fa-bath,
 .fa-water{
-  font-size: 10px !important;
+  font-size: 10px;
 }
 
 #viewFloorPlansBtn {
