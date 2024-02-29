@@ -138,7 +138,7 @@ html {
     height: 10% !important;
     border-radius: 50px;
     /* Makes them circular */
-    border-color: #B6D0E2 !important;
+    border-color: #007EC9 !important;
     border-style: solid;
   }
 }
@@ -148,7 +148,7 @@ html {
     width: 80% !important;
     height: 20% !important;
     border-radius: 50px;
-    border-color: #B6D0E2 !important;
+    border-color: #007EC9 !important;
     border-style: solid;
   }
   .selling-from {
@@ -202,7 +202,7 @@ html {
 .scroll-icon:hover {
   background-color: transparent;
   color: #16697A !important;
-  border-color: #B6D0E2 !important;
+  border-color: #007EC9 !important;
   cursor: pointer;
   transition: background-color 1s, border-color 1s;
 }
@@ -338,7 +338,7 @@ html {
 /* Custom Video Controls Styling */
 video::-webkit-media-controls-play-button,
 video::-webkit-media-controls-pause-button {
-  border: 2px solid #B6D0E2 !important;
+  border: 2px solid #007EC9 !important;
   background-color: transparent !important;
   border-radius: 50%;
   padding: 5px;
@@ -348,7 +348,7 @@ video::-webkit-media-controls-pause-button {
 
 video::-webkit-media-controls-play-button:hover,
 video::-webkit-media-controls-pause-button:hover {
-  background-color: #B6D0E2 !important;
+  background-color: #007EC9 !important;
   color: white !important;
 }
 
@@ -371,7 +371,7 @@ video::-webkit-media-controls-download-button {
  
 .carousel-inner{
   border-radius: 0% !important;
-  border: #B6D0E2 2.5px !important;
+  border: #007EC9 2.5px !important;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -382,12 +382,12 @@ video::-webkit-media-controls-download-button {
 
 
 h6 {
-  color: #B6D0E2 !important;
+  color: #007EC9 !important;
 }
 
 /* Change inactive button styles */
 .carousel-control-next-icon, .carousel-control-prev-icon{
-  background-color: #B6D0E2; /* Inactive color */
+  background-color: #007EC9; /* Inactive color */
 }
 
 
@@ -428,7 +428,7 @@ h6 {
   width: 5rem;
   height: 5rem;
   background-color: white;
-  border: 1.5px solid #2196f3;
+  border: 1.5px solid #007EC9 !important;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -523,7 +523,7 @@ h6 {
 }
 
 .modal-h5{
-  color: #B6D0E2;
+  color: #007EC9;
 }
 
 em {
@@ -545,14 +545,14 @@ em {
 
 .highlight-icon{
   font-size: large;
-  color: #B6D0E2;
+  color: #007EC9;
 }
 
 /* ON LOAD MODAL */
 
 .count-down {
   font-size: x-large;
-  color: #B6D0E2 !important;
+  color: #007EC9 !important;
 }
 
 /* LISTING CARD */
@@ -576,7 +576,7 @@ em {
       justify-content: space-between;
       align-items: center !important;
       width: 100% !important;
-      border: 1px solid #B6D0E2;
+      border: 1px solid #007EC9;
       border-radius: 5px;
       padding: 25px 25px 25px 25px !important;
       transition: transform 0.2s;
@@ -675,7 +675,7 @@ em {
   padding: 10px 15px !important;
   line-height: 1.5 !important;
   color: #fff !important;
-  background-color: #B6D0E2 !important;
+  background-color: #007EC9 !important;
 }
 
 
@@ -688,7 +688,7 @@ em {
   color: #fff;
 }
 .nav-icon{
-  color: #B6D0E2 !important;
+  color: #007EC9 !important;
 }
 
 @media only screen and (min-width: 782px) {
@@ -700,7 +700,7 @@ em {
 @media only screen and (max-width: 600px) {
   .nav-icon-social {
     font-size: x-large;
-    color: #B6D0E2 !important;
+    color: #007EC9 !important;
   }
 }
 
@@ -709,8 +709,8 @@ em {
 }
 
 .navbar-toggler, .btn-close {
-  background-color: #B6D0E2; /* Hamburger icon color */
-  border: 2px #B6D0E2 solid !important;
+  background-color: #007EC9; /* Hamburger icon color */
+  border: 2px #007EC9 solid !important;
 }
 
 .fa-bars{
@@ -736,7 +736,7 @@ footer {
 }
 
 footer a {
-  color: #B6D0E2; /* Set link color to goldenrod */
+  color: #007EC9; /* Set link color to goldenrod */
   text-decoration: none; /* Remove underline from links */
   transition: color 0.3s; /* Add a smooth color transition effect */
 }
@@ -761,11 +761,11 @@ footer .copyright {
 }
 
 footer .copyright a {
-  color: #B6D0E2;
+  color: #007EC9;
 }
 
 footer .copyright a:hover {
-  color: #B6D0E2; /* Change link color on hover */
+  color: #007EC9; /* Change link color on hover */
 }
 
 /* Responsive Styles */
@@ -783,7 +783,7 @@ footer .copyright a:hover {
 }
 .fa-location-dot {
   font-size: large;
-  color: #B6D0E2;
+  color: #007EC9;
 }
 .available-btn {
   border: #2196f3 solid;
@@ -795,7 +795,7 @@ footer .copyright a:hover {
 }
 
 .cookies-btn {
-  border: 2px #B6D0E2 solid !important;
+  border: 2px #007EC9 solid !important;
   color: #fff !important;
   background-color: #333 !important;
   padding: 10px;
@@ -1062,7 +1062,8 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
+  
+  /* background-color: rgba(0, 0, 0, 0.2); */
 }
 
 .kingdavidviewlogo {  
@@ -1093,7 +1094,7 @@ hr {
   line-height: 1.6em;
   margin-top: 20px;
   padding: 25px;
-  color: #B6D0E2 !important; /* Use a gold color */
+  color: #007EC9 !important; /* Use a gold color */
   background: linear-gradient(90deg, #ffd700, #ffcc00); /* Add a subtle gold gradient */
   background-clip: text;
   -webkit-background-clip: text;
@@ -1105,7 +1106,7 @@ hr {
 }
 
 .header-button {
-  background-color: #B6D0E2; /* MUI primary button color */
+  background-color: #007EC9; /* MUI primary button color */
   color: #fff; /* Text color for contrast */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -1118,9 +1119,9 @@ hr {
     background-color: rgb(199, 161, 67); /* Darker color on hover */
   }
 
-  /* Active effect (when clicked) https://i.ibb.co/vJLdJKs/masthead.jpg */
+  /* Active effect (when clicked)  / DESKTOP/ https://i.ibb.co/V3RgjZq/kite-surfing.jpg / MOBILE / https: //i.ibb.co/vJLdJKs/masthead.jpg */
   &:active {
-    background-color: #B6D0E2; /* Even darker color when active */
+    background-color: #007EC9; /* Even darker color when active */
   }
 }
 
@@ -1132,11 +1133,26 @@ hr {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/V3RgjZq/kite-surfing.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/vJLdJKs/masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+}
+
+.beiramar-img {
+  border: #007EC9 2px solid !important;
+}
+
+.learn-more {
+  text-decoration: none !important;
+  border: #fff solid;
+  color: #fff;
+  font-size: large;
+  border-radius: 5px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 10px !important;
+  margin-top: 50px !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1146,18 +1162,22 @@ hr {
       height: auto;
       min-height: 35rem;
       padding: 15rem 0;
-      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/1LKYNPQ/kite-surfing-mobi.jpg");
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%, #000 100%), url("https://i.ibb.co/vJLdJKs/masthead.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-size: cover;
     }
+  .beiramar-img {
+  position: relative;
+  z-index: 1 !important;
+}
 }
 
 .masthead h1,
 .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
@@ -1339,7 +1359,7 @@ hr {
 
   /* Style the button */
 .modal-btn {
-  background-color: #B6D0E2; /* Button background color */
+  background-color: #007EC9; /* Button background color */
   color: #fff; /* Text color */
   padding: 10px 20px; /* Padding around the text */
   border: none;
@@ -1364,14 +1384,14 @@ hr {
 
 /* Adjust button appearance on hover */
 .modal-btn, .available-btn:hover {
-  background-color: #B6D0E2;
+  background-color: #007EC9;
   opacity: 80%; /* Change color on hover */
 }
 .git-btn{
   background-color: #fff; /* Button background color */
   color: black; /* Text color */
   padding: 2.5px 5px; /* Padding around the text */
-  border: #B6D0E2 solid 1.8px;
+  border: #007EC9 solid 1.8px;
   border-radius: 8px;
   cursor: pointer;
   font-size: 16px;
@@ -1386,18 +1406,18 @@ hr {
 
 /* Adjust button appearance on hover */
 .git-btn:hover {
-  background-color: #B6D0E2;
+  background-color: #007EC9;
   opacity: 50%; /* Change color on hover */
 }
 
 .fa-address-card, .goldenrod {
-  color: #B6D0E2;
+  color: #007EC9;
 }
 
 /* ACCORDION */
 
 .accordion-button{
-  color: #B6D0E2 !important;
+  color: #007EC9 !important;
 }
 
 .fa-warehouse,
@@ -1408,7 +1428,7 @@ hr {
 }
 
 #viewFloorPlansBtn {
-  background-color: #B6D0E2; /* MUI primary button color */
+  background-color: #007EC9; /* MUI primary button color */
   color: #fff; /* Text color for contrast */
   padding: 10px 20px; /* Adjust padding as needed */
   border: none;
@@ -1423,7 +1443,7 @@ hr {
 
   /* Active effect (when clicked) */
   &:active {
-    background-color: #B6D0E2; /* Even darker color when active */
+    background-color: #007EC9; /* Even darker color when active */
   }
 }
 
@@ -1906,7 +1926,7 @@ a {
     width: auto !important;
   }
     .nav-link {
-      color: #B6D0E2;
+      color: #007EC9;
       font-size: large !important;
     }
   .w3-modal {
